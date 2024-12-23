@@ -5,6 +5,7 @@ const FoodInfo = () => {
   const { mealid } = useParams();
   //console.log(mealid);
   const [info, setInfo] = useState();
+  
 
   const getInfo = async () => {
     const get = await fetch(
